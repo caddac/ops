@@ -1,3 +1,4 @@
 resources:
+  - namespace.yaml
   - cluster-1.yaml
   - selector-env-dev.yaml
