@@ -13,3 +13,5 @@ spec:
         env:
           - name: ENV
             value: dev
+          - name: PORT
+            value: '8080'
