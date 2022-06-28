@@ -3,4 +3,4 @@ resources:
   - selector-env-dev.yaml
 #  - list everything, use cluster selectors to install into appropriate clusters
   - app-ns/dev
-  - app-ns/prod
+#  - app-ns/prod
