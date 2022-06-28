@@ -14,9 +14,6 @@ spec:
       labels:
         app: app
     spec:
-      env:
-        ENV: base
       containers:
       - image: us-docker.pkg.dev/davec-op-project/gcr.io/app:x.x.x
         name: app
-        resources: {}
