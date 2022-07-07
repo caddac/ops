@@ -5,7 +5,7 @@ resources:
 patchesStrategicMerge:
   - app.yaml
 
-commonLabels:
+commonAnnotations:
   configmanagement.gke.io/cluster-selector: cluster-env-dev
 # commonAnnotations:
 #   configsync.gke.io/cluster-name-selector: cluster-1
