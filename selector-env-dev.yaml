@@ -6,3 +6,12 @@ spec:
   selector:
     matchLabels:
       environment: dev
+---
+kind: ClusterSelector
+apiVersion: configmanagement.gke.io/v1
+metadata:
+  name: selector-env-prod
+spec:
+  selector:
+    matchLabels:
+      environment: prod
