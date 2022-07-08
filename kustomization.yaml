@@ -1,6 +1,6 @@
 resources:
-#   - cluster-1.yaml
-#   - selector-env-dev.yaml
+  - clusters.yaml
+  - selectors.yaml
   - namespace.yaml
 #  - list everything, use cluster selectors to install into appropriate clusters
   - app-ns/dev
